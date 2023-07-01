@@ -1,4 +1,4 @@
-                                                                                            MOVIE NERD
+                                                            MOVIE NERD
 
 Movienerd is a website that gives user information about current airing,trending movies/series around the world.
 We make use of moviedb api to get all the information. I needed an api key provided by moviedb site to implement the project.
