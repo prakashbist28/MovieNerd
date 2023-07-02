@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import CustomPagination from "../../components/Pagination/CustomPagination";
 import SingleContent from "../../components/SingleContent/SingleContent";
+import API_KEY from '../../apikey'
 
 const Search = () => {
   const [type, setType] = useState(0);
@@ -32,8 +33,7 @@ const Search = () => {
   const fetchSearch = async () => {
     try {
       const { data } = await axios.get(
-        `https://api.themoviedb.org/3/search/${type ? "tv" : "movie"}?api_key=${
-          process.env.REACT_APP_API_KEY
+        `https://api.themoviedb.org/3/search/${type ? "tv" : "movie"}?api_key=${API_KEY
         }&language=en-US&query=${searchText}&page=${page}&include_adult=false`
       );
       setContent(data.results);
