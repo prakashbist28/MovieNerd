@@ -8,6 +8,9 @@ Technologies used:
 •	Material UI
 •	Moviedb API
 
+To secure API_KEY:
+I create a apikey.js file in src where i added api key as constant and exported it and added it to .gitignore file
+
 Screenshots:
 
 TRENDING SECTION:
