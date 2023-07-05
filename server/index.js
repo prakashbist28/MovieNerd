@@ -16,7 +16,6 @@ app.get('/api/api-key', (req, res) => {
  // Replace with your actual API key
  const apiKey = process.env.API_KEY;
   res.json({ apiKey });
-  console.log(apiKey)
 });
 
 // Start the server
