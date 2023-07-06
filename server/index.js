@@ -5,12 +5,10 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://movienerd-front.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
-
-
 
 
 app.get('/api/api-key', (req, res) => {
