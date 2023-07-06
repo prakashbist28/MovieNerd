@@ -1,4 +1,6 @@
                                                         MOVIE NERD
+
+                                                        LIVE LINK : https://movienerd-front.onrender.com/
                                                         
 Movienerd is a website that gives user information about current airing,trending movies/series around the world. 
 I made use of TMDb api to get all the information. 
