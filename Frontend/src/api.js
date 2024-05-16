@@ -6,7 +6,7 @@ const Api = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/api-key")
+      .get("https://movienerd.onrender.com/api/api-key")
       .then((response) => {
         setApiKey(response.data.apiKey);
       })
