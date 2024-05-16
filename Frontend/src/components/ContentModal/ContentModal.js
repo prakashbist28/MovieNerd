@@ -23,14 +23,15 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   paper: {
-    width: "90%",
-    height: "80%",
+    width: "70%",
+    height: "60%",
     backgroundColor: "black",
-    border: "1px solid #282c34",
+    border: "1px solid #00BFFF",
     borderRadius: 10,
     color: "white",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(1, 1, 3),
+    overflow: "auto",
   },
 }));
 

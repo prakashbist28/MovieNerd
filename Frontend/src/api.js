@@ -15,8 +15,6 @@ const Api = () => {
       });
   }, []);
 
-
-
   return apiKey; 
 
 };

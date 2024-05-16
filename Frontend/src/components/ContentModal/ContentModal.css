@@ -42,8 +42,9 @@
 }
 
 .ContentModal__title {
-  height: 12%;
-  font-size: 5vw;
+  height: 15%;
+  font-size: 15px;
+  font-weight:bold ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,10 +84,10 @@
     height: 100%;
   }
   .ContentModal__title {
-    font-size: 3.5vw;
+    font-size: 25px;
   }
   .ContentModal__description {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 .button {
