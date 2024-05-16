@@ -67,7 +67,7 @@ const Search = () => {
           <Button
             onClick={fetchSearch}
             variant="contained"
-            style={{ marginLeft: 10 }}
+            style={{ marginLeft: 9 }}
           >
             <SearchIcon fontSize="large" />
           </Button>
